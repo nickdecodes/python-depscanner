@@ -1,1 +1,5 @@
-stdlib_list==0.10.0
+requests
+aiohttp
+stdlib_list
+requests
+twine
