@@ -14,6 +14,6 @@ DepScanner is available on PyPI:
 ```bash
 python -m pip install depscanner
 ```
-DepScanner officially supports Python 3.7+.
+DepScanner officially supports Python 3.6+.
 
 # API Reference and User Guide available on Read the Docs

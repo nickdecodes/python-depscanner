@@ -22,7 +22,7 @@ setup(
     author="nickdecodes",
     author_email="nickdecodes@163.com",
     description="Python Dependency Scanner",
-    long_description=readme,
+    long_description='readme',
     long_description_content_type="text/markdown",
     python_requires=">=3.6",
     install_requires=[
