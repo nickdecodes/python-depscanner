@@ -12,9 +12,12 @@
 
 from setuptools import setup, find_packages
 
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
 setup(
     name='depscanner',
-    version='0.1',
+    version='0.2',
     keywords=['depscanner', 'python', 'dependency'],
     package_data={"": ["LICENSE", "NOTICE"]},
     include_package_data=True,
@@ -22,7 +25,7 @@ setup(
     author="nickdecodes",
     author_email="nickdecodes@163.com",
     description="Python Dependency Scanner",
-    long_description='readme',
+    long_description=long_description,
     long_description_content_type="text/markdown",
     python_requires=">=3.6",
     install_requires=[
@@ -33,7 +36,7 @@ setup(
         'twine'
     ],
     project_urls={
-        "Documentation": "https://requests.readthedocs.io",
+        "Documentation": "http://python-depscanner.readthedocs.io",
         "Source": "https://github.com/nickdecodes/python-depscanner",
     },
 )
