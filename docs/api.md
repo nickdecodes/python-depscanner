@@ -1,4 +1,4 @@
-# DependencyScanner API Documentation
+# API Reference
 
 ## Class: DependencyScanner
 
