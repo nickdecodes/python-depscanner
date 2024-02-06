@@ -1,3 +1,4 @@
+# Usage
 The `scan_project` method provides a convenient synchronous interface to the asynchronous dependency scanning capabilities of the `DependencyScanner` class. It is designed to analyze a specified Python project directory, identifying both external dependencies and project-specific packages. The method takes into account the specified Python version to ensure compatibility and accuracy in the scan results.
 
 This method is particularly useful for applications that require a synchronous approach to dependency scanning, such as CLI tools, scripts, or other scenarios where asynchronous execution may not be feasible or preferred.
