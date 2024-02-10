@@ -17,3 +17,4 @@ python -m pip install depscanner
 DepScanner officially supports Python 3.6+.
 
 # API Reference and User Guide available on Read the Docs
+[Documentation](http://python-depscanner.readthedocs.io)
