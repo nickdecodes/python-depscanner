@@ -10,6 +10,6 @@
 @SoftWare:
 """
 
-from .dependency_scanner import DependencyScanner
+from .depscanner import DependencyScanner
 
 __all__ = ['DependencyScanner']

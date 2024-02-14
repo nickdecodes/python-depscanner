@@ -17,7 +17,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='depscanner',
-    version='0.3',
+    version='0.4',
     keywords=['depscanner', 'python', 'dependency'],
     package_data={"": ["LICENSE", "NOTICE"]},
     include_package_data=True,
