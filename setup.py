@@ -12,8 +12,11 @@
 
 from setuptools import setup, find_packages
 
-with open("README.md", "r", encoding="utf-8") as fh:
-    long_description = fh.read()
+
+def readme():
+    with open("README.md", "r", encoding="utf-8") as f:
+        return f.read()
+
 
 setup(
     name='depscanner',
@@ -25,7 +28,7 @@ setup(
     author="nickdecodes",
     author_email="nickdecodes@163.com",
     description="Python Dependency Scanner",
-    long_description=long_description,
+    long_description=readme(),
     long_description_content_type="text/markdown",
     python_requires=">=3.6",
     install_requires=[
@@ -33,10 +36,13 @@ setup(
         'aiohttp',
         'stdlib_list',
         'requests',
-        'twine'
+        'twine',
+        'build',
+        'installer'
     ],
     project_urls={
         "Documentation": "http://python-depscanner.readthedocs.io",
         "Source": "https://github.com/nickdecodes/python-depscanner",
     },
+    license='Apache License 2.0'
 )

@@ -3,3 +3,5 @@ aiohttp
 stdlib_list
 requests
 twine
+build
+installer
